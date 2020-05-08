@@ -39,6 +39,7 @@ return price
 }
 
 function removeFromCart(item) {
+i = 0 
 while (i<cart.length)
  if (item != cart[i].itemName){
  i = cart.length
