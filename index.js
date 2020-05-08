@@ -19,6 +19,9 @@ function viewCart() {
 if (cart.length>0){
   
 }
+else {
+  
+}
 }
 
 function total() {
