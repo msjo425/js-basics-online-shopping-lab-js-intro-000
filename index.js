@@ -32,7 +32,7 @@ else {
 function total() {
 let i = 0
 let price = 0
-for (i= 0; i<cart.length; i++{
+for (i= 0; i<cart.length; i++){
 price += cart[i].itemPrice
 }
 }
