@@ -43,7 +43,7 @@ i = 0
 while (i<cart.length)
  if (item = cart[i].itemName){
  cart.splice(i,1)
- i = cart.length
+ return cart 
 }
 else {
   i += 1
