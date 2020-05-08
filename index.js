@@ -44,7 +44,7 @@ for
  i = cart.length
 }
 else {
-  
+  i += 1 
 }
 
 }
