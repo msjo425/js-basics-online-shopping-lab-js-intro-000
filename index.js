@@ -39,11 +39,11 @@ return price
 }
 
 function removeFromCart(item) {
-i = 0
+let i = 0
 while (i<cart.length)
  if (item = cart[i].itemName){
  cart.splice(i,1)
- return cart 
+ return cart
 }
 else {
   i += 1
