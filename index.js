@@ -23,7 +23,6 @@ else {
   return `Your shopping cart is empty`
 }
 }
-}
 
 function total() {
   // write your code here
