@@ -39,7 +39,8 @@ return price
 }
 
 function removeFromCart(item) {
-  // write your code here
+
+
 }
 
 function placeOrder(cardNumber) {
