@@ -41,7 +41,7 @@ return price
 function removeFromCart(item) {
 let i = 0
 while (i<cart.length)
- if (item = cart[i].itemName){
+ if (item != cart[i].itemName){
  cart.splice(i,1)
  return cart
 }
