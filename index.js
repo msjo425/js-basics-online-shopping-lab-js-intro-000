@@ -30,7 +30,7 @@ else {
 }
 
 function total() {
-  // write your code here
+  price = 
 }
 
 function removeFromCart(item) {
