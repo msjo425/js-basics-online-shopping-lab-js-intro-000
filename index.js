@@ -21,7 +21,7 @@ var cue = ""
 let i = 0
 for (i = 0; i<cart.length; i++){
   cue = ``
-  return `In your cart, you have {$cue}`
+  return `In your cart, you have ${cue}`
 }
 }
 else {
