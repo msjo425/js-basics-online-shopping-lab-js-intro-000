@@ -34,7 +34,7 @@ let i = 0
 let price = 0
 for (i= 0; i<cart.length; i++{
 
-})
+}
 }
 
 function removeFromCart(item) {
