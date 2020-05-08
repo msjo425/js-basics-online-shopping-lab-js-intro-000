@@ -39,7 +39,7 @@ return price
 }
 
 function removeFromCart(item) {
-
+while item != 
 
 }
 
