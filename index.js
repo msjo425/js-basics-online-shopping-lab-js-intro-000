@@ -19,7 +19,9 @@ function viewCart() {
 if (cart.length>0){
 var cue = ""
 let i = 0
-for (i = 0; i<cart.length; i++)
+for (i = 0; i<cart.length; i++){
+  
+}
 }
 else {
   return `Your shopping cart is empty`
