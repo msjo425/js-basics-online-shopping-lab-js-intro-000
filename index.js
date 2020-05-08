@@ -42,7 +42,7 @@ function removeFromCart(item) {
 i = 0
 while (i<cart.length)
  if (item = cart[i].itemName){
- 
+ cart.splice
  i = cart.length
 }
 else {
