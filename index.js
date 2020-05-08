@@ -39,7 +39,7 @@ return price
 }
 
 function removeFromCart(item) {
- item != cart[i].itemName {
+ if (item != cart[i].itemName {
 
 }
 
