@@ -30,7 +30,10 @@ else {
 }
 
 function total() {
-  price = 
+let i = 0
+for (i= 0; i<cart.length; i++{
+  
+})
 }
 
 function removeFromCart(item) {
