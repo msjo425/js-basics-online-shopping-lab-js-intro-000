@@ -25,7 +25,7 @@ for (i = 0; i<cart.length; i++){
 return `In your cart, you have ${cue}`
 }
 else {
-  return `Your shopping cart is empty`
+  return `Your shopping cart is empty.`
 }
 }
 
