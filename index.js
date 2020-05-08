@@ -17,7 +17,7 @@ return `${item} has been added to your cart.`
 
 function viewCart() {
 if (cart.length>0){
-
+var cue = ""
 }
 else {
   return `Your shopping cart is empty`
