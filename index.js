@@ -20,7 +20,7 @@ if (cart.length>0){
 var cue = ""
 let i = 0
 for (i = 0; i<cart.length; i++){
-  cue = `${cue}${cart[i].itemName} at $${cart[i].itemPrice}${i<cart.length ? ", " :""}`
+  cue = `${cue}${cart[i].itemName} at $${cart[i].itemPrice}${i+2<cart.length ? ", " :""}`
 }
 return `In your cart, you have ${cue}.`
 }
