@@ -21,8 +21,8 @@ var cue = ""
 let i = 0
 for (i = 0; i<cart.length; i++){
   cue = `${cue} ${cart[i].itemName} at ${cart[i].price}${(i+1)<line.length ? "," :""}`
-  
 }
+return `In your cart, you have ${cue}`
 }
 else {
   return `Your shopping cart is empty`
