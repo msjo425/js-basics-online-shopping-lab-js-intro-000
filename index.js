@@ -43,11 +43,11 @@ let i = 0
 while (i<cart.length)
  if (item != cart[i].itemName){
  i += 1
- cart.splice(i,1)
- return cart
+ 
 }
 else {
-  
+  cart.splice(i,1)
+  return cart  
 }
 
 }
