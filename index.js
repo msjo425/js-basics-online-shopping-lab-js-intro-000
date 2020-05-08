@@ -22,7 +22,7 @@ let i = 0
 for (i = 0; i<cart.length; i++){
   cue = `${cue}${cart[i].itemName} at $${cart[i].itemPrice}${(i+1)<cart.length ? ", " :""}`
 }
-return `In your cart, you have ${cue}`
+return `In your cart, you have ${cue}.`
 }
 else {
   return `Your shopping cart is empty.`
